@@ -1,0 +1,21 @@
+
+.sectionList {
+    position: relative;
+}
+
+.section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transition-delay: 0.15s;
+    z-index: 0;
+}
+
+.active {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}

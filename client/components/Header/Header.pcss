@@ -1,0 +1,40 @@
+.header {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),
+        0 1px 10px 0 rgba(0,0,0,0.12),
+        0 2px 4px -1px rgba(0,0,0,0.3);
+    z-index: 3;
+    position: relative;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 16px 16px 16px 0;
+    margin: 0;
+}
+
+.backButton {
+    border: 0;
+    background: none;
+    outline: none;
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    opacity: 0.6;
+    border-radius: 50%;
+    transition: opacity 0.15s;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.backButton.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.backButtonImage {
+    display: block;
+}

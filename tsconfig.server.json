@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "build/server",
+        "sourceMap": false,
+        "target": "es6"
+    },
+    "include": [
+        "server"
+    ],
+    "exclude": [
+        "node_modules",
+        "client",
+        "server/serverful.ts"
+    ]
+}
